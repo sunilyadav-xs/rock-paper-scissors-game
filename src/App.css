@@ -74,6 +74,10 @@ body{
   width: 5vw;
   height: 5vw;
 }
+.winner{
+  outline: 50px solid hsl(197, 57%, 42%);
+  transition: all 0.3s ease-in-out;
+}
 .paper{
   top: 8%;
   left: -10%;
