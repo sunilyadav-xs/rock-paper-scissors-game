@@ -10,7 +10,6 @@ body{
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 .container{
-  /* position: relative; */
   width: 100vw;
   height: calc(100vh - 20px);
   display: flex;
@@ -116,7 +115,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 55px;
 }
 .yourPick p{
   font-size: 30px;
@@ -127,7 +126,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 55px;
 }
 .systemPick p{
   font-size: 30px;
@@ -157,4 +156,150 @@ body{
 .result button:hover{
   transform: scale(1.1);
   color: red;
+}
+@media screen and (max-width: 426px) {
+  .container{
+    margin: 0;
+    gap: 20px;
+  }
+  .header{
+    max-width: 400px;
+    width: 100%;
+    height: 20%;
+    margin-top: 5px;
+  }
+  .score{
+    width: 25%;
+    height: 70%;
+  }
+  .gameContainer{
+    max-width: 400px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  .yourPick{
+    width: 100%;
+    gap: 20px;
+  }
+  .systemPick{
+    width: 100%;
+    gap: 20px;
+  }
+  .triangle > img{
+    width: 100%;
+    height: 100%;
+  }
+  .signs{
+    width: 50%;
+    height: 35%;
+  }
+  .signs img{
+    width: 50%;
+    height: 50%;
+  }
+  .paper{
+    top: 14%;
+  }
+  .scissors{
+    top: 14%;
+    left: 63%;
+  }
+  .rock{
+    top: 65%;
+    left: 27%;
+  }
+  .gamePaper{
+    width: 30vw;
+    height: 20vh;
+  }
+  .gameScissors{
+    width: 30vw;
+    height: 20vh;
+  }
+  .gameRock{
+    width: 30vw;
+    height: 20vh;
+  }
+  .winner{
+    outline: 15px solid hsl(197, 57%, 42%);
+  }
+  .result{
+    gap: 5px;
+  }
+  .result h1{
+    font-size: 30px;
+  }
+  .result button{
+    width: 100%;
+    height: 5vh;
+  }
+}
+@media screen and (max-width: 769px){
+  .header{
+    max-width: 750px;
+    width: 100%;
+    height: 20%;
+    margin-top: 5px;
+  }
+  .score{
+    width: 18%;
+    height: 75%;
+  }
+  .paper{
+    top: 12%;
+  }
+  .scissors{
+    top: 12%;
+    left: 63%;
+  }
+  .rock{
+    top: 65%;
+    left: 27%;
+  }
+  .signs{
+    width: 50%;
+    height: 35%;
+  }
+  .signs img{
+    width: 50%;
+    height: 50%;
+  }
+  .gamePaper{
+    width: 23vw;
+    height: 20vh;
+  }
+  .gameScissors{
+    width: 23vw;
+    height: 20vh;
+  }
+  .gameRock{
+    width: 23vw;
+    height: 20vh;
+  }
+  .winner{
+    outline: 20px solid hsl(197, 57%, 42%);
+  }
+}
+@media screen and (max-width: 1025px){
+  .header{
+    max-width: 750px;
+    width: 100%;
+    height: 20%;
+    margin-top: 5px;
+  }
+  .paper{
+    top: 12%;
+    left: -7%;
+  }
+  .scissors{
+    top: 12%;
+    left: 67%;
+  }
+  .rock{
+    top: 65%;
+    left: 30%;
+  }
 }

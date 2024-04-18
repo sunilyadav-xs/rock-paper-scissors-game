@@ -48,4 +48,22 @@
     font-weight: bold;
     cursor: pointer;
   }
+  @media screen and (max-width: 426px){
+    .rules{
+      margin-bottom: 0px;
+      margin-right: 10px;
+    }
+    .rules button{
+      width: 15vw;
+    }
+    .modal-content{
+      width: 70%;
+      height: 70%;
+    }
+  }
+  @media screen and (max-width: 769px){
+    .rules button{
+      width: 15vw;
+    }
+  }
   
