@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext} from "react";
 import gameContext from "../context/GameContext";
 
 const Header = () => {

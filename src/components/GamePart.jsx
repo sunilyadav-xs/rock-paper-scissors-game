@@ -30,7 +30,7 @@ const GamePart = () => {
   useEffect(() => {
     setTimeout(() => {
       updateScore(output, setScore);
-    }, 100);
+    }, 0);
   }, [output]);
   console.log(output);
   return (
